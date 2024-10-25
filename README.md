@@ -1,10 +1,17 @@
-# AmzWebScraper
-Building an amazon web scraper using python
-ressources:
-- https://www.youtube.com/watch?v=HiOtQMcI5wg (main)
-- https://www.geeksforgeeks.org/python-web-scraping-tutorial/ (will look for it)
+# Amazon Product Scraper
+
+A script to scrape product details from Amazon UK and save them to a CSV file.
+
+## Features
+- Extracts product title, description, rating, sizes, and prices.
+- Saves data in CSV format.
+
+## Requirements
+- Python 3
+- Install dependencies:
+  ```bash
+  pip install requests beautifulsoup4
+```
 
 
-other sources:
-- https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent
-- https://httpbin.org/
+Let me know if you need further adjustments!
